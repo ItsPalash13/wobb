@@ -1,9 +1,5 @@
 # Wobb
 
-## Project Overview
-
-Wobb is a web application designed to create an engaging and interactive platform for users. This project focuses on responsive design, seamless user experience, and dynamic components with robust functionality.
-
 ## Installation
 
 Follow these steps to set up the project locally:
