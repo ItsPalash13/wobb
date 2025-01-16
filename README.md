@@ -52,3 +52,7 @@ The application will be available at `http://localhost:3000` by default.
 ### Enhance Overall View
 - Simplify the overall layout to make it intuitive for users.
 - Ensure consistency in color schemes, spacing, and UI components.
+
+Rough design work:
+https://www.figma.com/design/I8RS81RdEYt57Z6ctwWAJN/Wobb?node-id=0-1&t=kAnQiygoc7y80txK-1
+
