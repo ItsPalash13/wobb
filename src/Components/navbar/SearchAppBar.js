@@ -85,7 +85,7 @@ export default function SearchAppBar() {
                 justifyContent: 'left',
                 gap: 4, // Space between links
                 paddingLeft:4,
-                paddingTop:0.5,
+                paddingTop:0.6,
               }}
             >
               {['Campaigns', 'Wobble', 'Messages'].map((text, index) => (
@@ -93,7 +93,7 @@ export default function SearchAppBar() {
                   key={index}
                   sx={{
                     color: index === 0 ? '#080C51' : '#383838',
-                    fontWeight: index === 0 ? 600:500,
+                    fontWeight: 600,
                     fontSize: 16,
                     cursor: 'pointer',
                     '&:hover': { color: '#080C51' },
