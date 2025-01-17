@@ -17,21 +17,21 @@ export default function CardView({onCardClick}) {
       id: 2,
       progress: 88,
       title: "InfluenceSphere",
-      image: "https://sociallypowerful.com/wp-content/uploads/2023/10/Ecommerce-Influencer-Marketing-Banner.jpg",
+      image: "https://images.pexels.com/photos/534757/pexels-photo-534757.jpeg",
       price: 120, // Random price
     },
     {
       id: 3,
       progress: 20,
       title: "TrendMaven",
-      image: "https://www.dotyeti.com/wp-content/uploads/2022/11/Neil-Patel-1024x459.jpg",
+      image: "https://ucarecdn.com/00beff47-869d-4e32-81b1-7f26201cfc9b/01.webp",
       price: 320, // Random price
     },
     {
       id: 4,
       progress: 98,
       title: "BettingAce",
-      image: "https://www.shutterstock.com/image-vector/sports-betting-banner-website-button-260nw-2167648883.jpg",
+      image: "https://cdn.dribbble.com/userupload/15858677/file/original-535189955aadb6643d71db7293e2afcd.jpg?resize=1024x819&vertical=center",
       price: 75, // Random price
     },
     {
@@ -54,7 +54,7 @@ export default function CardView({onCardClick}) {
 
   return (
    
-    <Grid container spacing={2}>
+    <Grid container spacing={{md:4,sm:2}}>
       {items.map((item) => (
         <Grid key={item.id} size={{md:4, sm:6, xs:12}}>
           {/* Trigger drawer open on card click */}
