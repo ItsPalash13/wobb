@@ -26,7 +26,7 @@ export default function Cards({ onCardClick }) {
     <Stack
       direction="column"
       spacing={4}
-      sx={{ padding: 2, backgroundColor: "#fff", borderRadius: "12px", marginTop:{md:2, sm:8, xs:20} }}
+      sx={{ padding: 2,paddingLeft:{md:5.5,sm:2}, paddingRight:{md:5.5,sm:2}, backgroundColor: "#fff", borderRadius: "12px", marginTop:{md:2, sm:8, xs:20} }}
     >
       {/* Buttons with individual spacing */}
       <Stack
